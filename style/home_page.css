@@ -1,0 +1,161 @@
+.header {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.container-flex {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+.container {
+    box-sizing: border-box;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+.sections {
+    margin-bottom: 50px;
+}
+.header__box-link {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.first , .second {
+    margin-right: 20px;
+}
+video {
+    outline: none;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 0px 5px #000;
+    background-color: black;
+}
+.about__forest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about__forest-link-youtube {
+    display: block;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about__forest-link-image-youtube {
+    height: 70px;
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 500ms;
+}
+.about__forest-link-image-youtube:hover {
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+.about__forest-subscribe {
+    padding: 20px;
+    background-color: rgba( 0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px #000;
+}
+.about__forest-subscribe-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about__forest-subscribe-icons {
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.about__forest-link-image-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    transition: 500ms;
+}
+.facebook:hover {
+    box-shadow: 0px 0px 10px rgb(0, 79, 153);
+}
+.instagram:hover {
+    box-shadow: 0px 0px 10px rgb(195, 0, 255);
+}
+.about__us-title-box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about__us-text-box {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba( 0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+.slider__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.slider__text {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba( 0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+.slider__sliderbox {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 10s slider infinite;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 50px;
+}
+@keyframes slider {
+    0%{
+        background-image: url("../images/silder_1.jpg");
+    }
+    25%{
+        background-image: url("../images/silder_2.jpg");
+    }
+    50%{
+        background-image: url("../images/silder_3.jpg");
+    }
+    75%{
+        background-image: url("../images/group_3.jpg");
+    }
+    100%{
+        background-image: url("../images/forest.jpg");
+    }
+}
+.footer__menu {
+    background-color: rgba( 0, 0, 0, 0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer__menu-items {
+    padding: 10px 10px;
+}
+.footer__menu-box {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px #000;
+}
